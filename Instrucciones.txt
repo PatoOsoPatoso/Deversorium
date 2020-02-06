@@ -1,0 +1,20 @@
+Para descargar el repositorio (Solo la primera vez)
+
+	Primero: git clone https://github.com/PatoOsoPatoso/Deversorium	
+
+
+Para subir al repositorio
+
+	Primero: git add .
+	Segundo: git commit -m "Nombre del commit"
+	Tercero: git push -u origin master
+
+
+Para actualizar desde el repositorio
+
+	Primero: git pull origin master
+
+Si no podéis subir algo al repositorio es porque estáis desactualizados así que podéis hacer 2 cosas
+
+	Primera opción: Tenéis que actualizar con git pull origin master
+	Segunda opción: Subid de forma normal pero en el último comando "git push -u origin master" cambiad el -u por -f
